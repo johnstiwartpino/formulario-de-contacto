@@ -1,0 +1,38 @@
+
+
+body {
+    background: url(../IMAGENES/20190108_125313.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+h1 {
+    color: rgb(8, 7, 8);
+    margin-top: 100px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    }
+
+    textarea {
+        width: 600px;
+        height: 70px;
+        margin-top: 5px;
+    }
+
+    input, textarea {
+        background: transparent;
+        border: solid 3px rgb(224, 27, 149);
+        color: rgb(196, 25, 159);        
+    }
+
+    input[type=submit]{
+        color: rgb(236, 62, 178);
+        }
+
+        ::-webkit-input-placeholder{
+            color: rgb(231, 45, 191);
+        }
+
